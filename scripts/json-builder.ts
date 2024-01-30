@@ -27,5 +27,6 @@ const createJSONFile = (exercises: Array<Exercise>) => {
 
 const directories = getDirectories("./exercises");
 const exercises = getExercises(directories);
+exercises.sort((a, b) => a.name.localeCompare(b.name));
 createJSONFile(exercises);
 console.log("Created ./exercises.json file");
