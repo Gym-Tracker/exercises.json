@@ -45,3 +45,10 @@ This builds an `exercises-psql.sql` file which creates and inserts all exercises
 ## Maintainers
 
 [@olliejennings](https://github.com/OllieJennings)
+
+## Add another exercise
+
+1. Create a new folder in `/exercises` that is named one number higher than the highest numered folder.
+2. Copy one of the `exercise.json` files from another exercise into the new folder.
+3. Give the new exercise an ID the same as the folder name.
+4. Fill in the rest of the exercise details.
